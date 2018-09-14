@@ -1,7 +1,7 @@
 # Kernel-Perturbation-based-Boosting-of-SVMs
-The KPBoost-SVM method can be used to effectively perform boosting with SVMs. SVMs are stable learner which cannot be readily boosted by resampling/reweighting the data. Therefore, KPBoost-SVM uses Kernel Perturbation to boost SVMs. The idea is to increase, in each round of boosting, the resolution of the RBF-kernel-induced feature space around the data points which are misclassified in the previous round. The resolution is increased by using a conformal transformation.
-The KPBoostROI-SVM method is a variant of KPBoost-SVM which calculates the resolution around the individual test points, unlike KPBoost-SVM (which assumes maximum possible resolution around all test data points).
-**This code bundle contains codes for identifying the small disjuncts in a dataset (findDisjunts.m) and also contains an implementation of the Geometric Small Disjunct Index for measuring the performance on the small disjuncts for any classifier (GSDI.m).**
+The KPBoost-SVM method can be used to effectively perform boosting with SVMs. SVMs are stable learner which cannot be readily boosted by resampling/reweighting the data. Therefore, KPBoost-SVM uses Kernel Perturbation to boost SVMs. The idea is to increase, in each round of boosting, the resolution of the RBF-kernel-induced feature space around the data points which are misclassified in the previous round. The resolution is increased by using a conformal transformation. The KPBoostROI-SVM method is a variant of KPBoost-SVM which calculates the resolution around the individual test points, unlike KPBoost-SVM (which assumes maximum possible resolution around all test data points).
+
+**This code bundle contains codes for IDENTIFYING the DISJUNCTS in a DATASET (findDisjunts.m) and also contains an implementation of the Geometric Small Disjunct Index for MEASURING the PERFORMANCE on the SMALL DISJUNCTS for ANY CLASSIFIER (GSDI.m).**
 
 LICENSE:
 
